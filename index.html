@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Escute e Baixe Músicas</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="loop">
+            <span>Adquira seu pendrive musical - Whatsapp: (55) 9 8425-0248</span>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+            <div class="time-display" id="time-display">00:00</div>
+        </div>
+        <img src="cover.jpg" class="cover" alt="Cover image">
+        <div class="info">
+            <div class="title"></div>
+            <div class="artist"></div>
+            <div class="controls">
+                <div class="control" id="prev">
+                    <svg class="icon" viewBox="0 0 24 24">
+                        <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z" />
+                    </svg>
+                </div>
+                <div class="control" id="play">
+                    <svg class="icon play" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                    </svg>
+                </div>
+                <div class="control" id="next">
+                    <svg class="icon" viewBox="0 0 24 24">
+                        <path d="M16 6h2v12h-2zm-3.5 6l-8.5 6V6z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="download" id="download">
+            <svg class="icon" viewBox="0 0 24 24">
+                <path d="M5 20h14v-2H5v2zm7-9l-5 5h3v4h4v-4h3l-5-5zm-4-9v6h2V2h-2z" />
+            </svg>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
